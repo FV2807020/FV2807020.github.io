@@ -7,6 +7,7 @@ My top choice in careers is becomining a computer vision engineer. This connects
 
 <img width="360" height="214" alt="image" src="https://github.com/user-attachments/assets/862c4223-b7cb-4c90-8b7c-eae0cc1aac1c" />
 
+I am currently enrolled in my school's Robotics club and TSA Program, I aspire to learn coding and basic robotics through these courses. I also find these courses fun to work in.
 
 ## Navigation
 
