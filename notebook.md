@@ -33,7 +33,19 @@
     Example: Brushing your teeth might consist of these steps: Put toothpaste on the toothbrush. Use the toothbrush to clean your teeth.
 </details>
 
- 
+  <details>
+   <summary>selection</summary>
+   The Parts of an algorithm where choices are made.
+  
+    Example: Making a choice to donate to charity after an algorithm adds up the total cost of your groceries.
+</details>
+
+<details>
+  <summary>iteration</summary>
+    The parts of your algorithm that repeat.
+  
+    Example: Adding a cost over and over again, repeating the sequence, is iteration.
+</details>
 
 ## Code Examples
  
