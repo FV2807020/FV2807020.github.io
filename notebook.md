@@ -47,6 +47,36 @@
     Example: Adding a cost over and over again, repeating the sequence, is iteration.
 </details>
 
+<details>
+  <summary>java</summary>
+    A programming language different than Javascript
+</details>
+
+<details>
+  <summary>object-oriented-language</summary>
+    A versatile programming language because of its modularity, reusability, and easier maintenance due to organized code and encapsulated data.
+</details>
+
+<details>
+  <summaryprocedural-language></summary>
+    A language using a linear top-down approach, good for simple projects but hard to maintain for larger projects.
+</details>
+
+<details>
+  <summary>class</summary>
+    A type of blueprint in Java that defines the behavior of objects you create from it.
+</details>
+
+<details>
+  <summary>method</summary>
+    A block of code in a class that does a certain task when called.
+</details>
+
+<details>
+  <summary>console</summary>
+    A place where programs can print to.
+</details>
+
 ## Code Examples
  
   ### Print Statements
