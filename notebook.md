@@ -58,7 +58,7 @@
 </details>
 
 <details>
-  <summaryprocedural-language></summary>
+  <summary>procedural-language></summary>
     A language using a linear top-down approach, good for simple projects but hard to maintain for larger projects.
 </details>
 
