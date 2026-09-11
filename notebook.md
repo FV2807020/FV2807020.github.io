@@ -58,7 +58,7 @@
 </details>
 
 <details>
-  <summary>procedural-language></summary>
+  <summary>procedural-language</summary>
     A language using a linear top-down approach, good for simple projects but hard to maintain for larger projects.
 </details>
 
@@ -75,6 +75,21 @@
 <details>
   <summary>console</summary>
     A place where programs can print to.
+</details>
+
+<details>
+  <summary>commenting</summary>
+    an informative comment in your program, not meant to be run.
+</details>
+
+<details>
+  <summary>internal-documentation</summary>
+    a link that takes a user to a different area in the same site.
+</details>
+
+<details>
+  <summary>external-documentation</summary>
+    information kept out the source files to help others understand your code.
 </details>
 
 ## Code Examples
@@ -100,6 +115,15 @@ Follow this guide to keep your coding notebook **clear, consistent, and professi
 This ensures your notes are easy for you (and others) to read later.
 
 ---
+
+###Commenting
+```java
+public class Example {
+  public static void main(String[] args) {
+    // comment //
+  }
+}
+```
 
 ## Headings
 
