@@ -102,7 +102,11 @@
       }
   }
   ```
-  ---
+   **System** accesses a Java class that's built into the language
+  
+  **out** is short for "output".
+  
+  **println** is short for "print line".
 
 ### Commenting
 ```java
@@ -112,11 +116,7 @@ public class Example {
   }
 }
 ```
-  **System** accesses a Java class that's built into the language
-  
-  **out** is short for "output".
-  
-  **println** is short for "print line".
+// // or /* */ on either end to start and end comments
 
 ## Markdown Style Guide for Coding Notebooks
 
