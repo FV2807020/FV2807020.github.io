@@ -102,6 +102,16 @@
       }
   }
   ```
+  ---
+
+### Commenting
+```java
+public class Example {
+  public static void main(String[] args) {
+    // comment //
+  }
+}
+```
   **System** accesses a Java class that's built into the language
   
   **out** is short for "output".
@@ -113,17 +123,6 @@
 Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
 
 This ensures your notes are easy for you (and others) to read later.
-
----
-
-### Commenting
-```java
-public class Example {
-  public static void main(String[] args) {
-    // comment //
-  }
-}
-```
 
 ## Headings
 
