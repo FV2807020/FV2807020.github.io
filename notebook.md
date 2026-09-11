@@ -116,7 +116,7 @@ This ensures your notes are easy for you (and others) to read later.
 
 ---
 
-###Commenting
+### Commenting
 ```java
 public class Example {
   public static void main(String[] args) {
