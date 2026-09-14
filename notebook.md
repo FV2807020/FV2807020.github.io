@@ -251,51 +251,51 @@ Example: a location sensor to sense where a robot is, to help it find out what p
 
  Name: Booleans & Conditions
 
-What It Means:
+What It Means: A Boolean in coding is a data type that has only one of two values: true or false. A condition (or conditional statement) uses Booleans to help a program make decisions and choose which block of code to run
 
-In My Own Words: A true or false statement that helps a program reach its goal by allowing it to adapt
+In My Own Words: A true or false statement that helps a program reach its goal by allowing it to adapt 
 
-Example:
+Example: If robot doesn't move for 200 seconds, it turns a boolean true, which a conditional uses to try and get the robot free
 
- Name:
+ Name: Sense -> Think -> Act
 
-What It Means:
+What It Means: a foundational three-step programming and computer science framework that describes how a robot interacts with its environment.
 
-In My Own Words:
+In My Own Words: A robot senses its environment, assesses it, and uses an algorithm to help it achieve its goal.
 
-Example:
+Example: A robot senses its location and whats around it, it thinks about a path to reach its goal, it moves on the path.
 
- Name:
+ Name: Comparisons
 
-What It Means:
+What It Means: evaluating two values to see how they relate to each other
 
-In My Own Words:
+In My Own Words: Comparing two values to find out what to do.
 
-Example:
+Example: If the risk of something is higher than the reward, don't do it, but if the reward is higher than the risk, do it.
 
- Name:
+ Name: Coordinates 
 
-What It Means:
+What It Means: sets of numbers that give the exact address or position of a point on a graph, a map, or in space
 
-In My Own Words:
+In My Own Words: A pair of x and y values that determine a robot's location
 
-Example:
+Example: you can be found on any world map using x and y values.
 
- Name:
+ Name: Conditionals
 
-What It Means:
+What It Means: an instruction that tells a program to make a decision and run different blocks of code depending on whether a specific condition is true or false
 
-In My Own Words:
+In My Own Words: if something is true and fulfils a conditional, it runs a sequence.
 
-Example:
+Example: If you knock over a vase, it will break.
 
- Name:
+ Name: Patterns
 
-What It Means:
+What It Means: reusable, proven blueprints or templates used to solve common, recurring problems in software design
 
-In My Own Words:
+In My Own Words: A re-occuring set of instructions or code that solves a problem
 
-Example:
+Example: Seeing the same code being used over and over again to solve the problem of a robot hitting a wall on accident and changing course.
  
 ## Vocabulary
 
