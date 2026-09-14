@@ -299,6 +299,20 @@ Example: Seeing the same code being used over and over again to solve the proble
  
 ## Vocabulary
 
+VR Robot + Playground	VR Robot -
+Programming Language + Project -
+Behavior + Command -
+Drivetrain -
+Loop + Iteration -
+Sensor + Bumper Sensor -
+Boolean + Condition + TRUE/FALSE -
+Distance Sensor + Threshold	Distance Sensor -
+Coordinate Plane + X/Y Coordinates -
+Location Sensor -
+Comment	-
+Eye Sensor -
+Conditional Statement	-
+
 ## Markdown Style Guide for Coding Notebooks
 
 Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
