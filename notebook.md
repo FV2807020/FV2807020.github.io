@@ -1,5 +1,10 @@
 ## Table of Contents
-
+- [Blocks](#blocks)
+  
+ - [Concepts](#concepts)
+   
+ - [Vocabulary](#vocabulary)
+   
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
   - [Headings](#headings)
@@ -117,6 +122,102 @@ public class Example {
 }
 ```
 // // or /* */ on either end to start and end comments
+
+## Blocks
+
+Name: Hat Block
+
+Shape/Type: Round on the top with a connector to the bottom to connect with stack blocks
+
+What It Does: Whenever the condition of the hat block is fulfilled, it runs the code.
+
+Example: When Downeye detects object, move forward
+
+<img width="320" height="214" alt="image" src="https://github.com/user-attachments/assets/56e0d781-1a34-4929-8fd3-eb1c68d77d28" />
+
+Name: Stack / Command Block
+
+Shape/Type: Connecter on top and on bottom to attach other of the same block type
+
+What It Does: It runs simple instructions like movement
+
+Example: A stack block that moves the robot 100mm and then turns right
+
+<img width="489" height="227" alt="image" src="https://github.com/user-attachments/assets/5903772a-17d4-4668-b528-5d51fbef9594" />
+
+Name:C-block
+
+Shape/Type: is a c, stack blocks can be placed inside it and above or below it, hexagonal blocks can be placed inside if its a conditional
+
+What It Does: blocks can be placed inside it to run a conditional.
+
+Example: A conditional can fit a hexagonal detect block, both repeats and conditionals attach to stack blocks inside and outside
+
+<img width="493" height="498" alt="image" src="https://github.com/user-attachments/assets/589c6348-d233-4734-87e2-b580a7acec9e" />
+
+Name: Reporter / Oval block
+
+Shape/Type: Oval, no extrusions
+
+What It Does: it can be put inside hexagonal blocks and stack blocks to do equations for values, also can be used for variables
+
+Example: variables can be fit inside hexagonals to find new values for them through equations
+
+<img width="420" height="248" alt="image" src="https://github.com/user-attachments/assets/bda48910-2205-4a18-a578-f3eb089361dd" />
+
+Name: Boolean / Hexagonal Block
+
+Shape/Type: A hexagonal shape with typically longer horizontal sides
+
+What It Does: it can serve as a condition or value for conditional blocks.
+
+Example: a boolean or detect hexagonal block is inside a conditional, if either of them occur, the conditional runs.
+
+<img width="439" height="276" alt="image" src="https://github.com/user-attachments/assets/c8eb6e59-fce1-4c0a-b2a8-828349b38900" />
+
+Name: Repeat / Loop Blocks
+
+Shape/Type: A C-shaped block, attaches to stack blocks and can fit ovals if not forever.
+
+What It Does: It is used to repeat stack lines of code for a certain amount of times
+
+Example: A repeat loop of a robot going around a certain area
+
+<img width="332" height="318" alt="image" src="https://github.com/user-attachments/assets/80c0c99c-0243-4b21-adfb-7556342a64df" />
+
+Name: Wait Until Block
+
+Shape/Type: a stack with a hexagonal outcut inside it
+
+What It Does: it waits until an action that fulfills the hexagonal block occurs, then runs code.
+
+Example: If a robot drives forward and is supposed to turn when it reaches value y (in mm) on the y axis, then a wait until block can help
+
+<img width="580" height="399" alt="image" src="https://github.com/user-attachments/assets/9c8a0653-b10c-4c9a-9f6e-a100ce3a8bf5" />
+
+Name: If-then block
+
+Shape/Type: c-block
+
+What It Does: if a condition is fulfilled, it runs a sequential line of code within itself.
+
+Example: if a robot detects an object, it drives forward.
+
+<img width="565" height="303" alt="image" src="https://github.com/user-attachments/assets/5d23d49f-1071-42ee-8c94-45f0fc621f20" />
+
+Name: Forever Block
+
+Shape/Type: c block with no hexagonal
+
+What It Does: runs a line of code forever
+
+Example: an if then block inside a forever block, will forever check the conditional and fulfill it if it is true.
+
+<img width="440" height="461" alt="image" src="https://github.com/user-attachments/assets/556c62a2-d8d8-468d-bf70-a698754a6e4f" />
+
+## Concepts
+
+## Vocabulary
 
 ## Markdown Style Guide for Coding Notebooks
 
