@@ -217,6 +217,86 @@ Example: an if then block inside a forever block, will forever check the conditi
 
 ## Concepts
 
+Name: Sequence
+
+What It Means: the step-by-step order in which instructions run
+
+In My Own Words: The set of instructions done to accomplish a goal.
+
+Example: getting ready for school, school bell schedules, work schedules, getting home and unpacking
+
+ Name: Parameters
+
+What It Means: parameters act as placeholders within a command or function that allow you to pass in different inputs, directly changing what the command does or how it behaves.
+
+In My Own Words: it's purpose is to be something that allows you to test different inputs to help you understand or debug code.
+
+Example: using a slider to determine the effects of a function in math in relation to an x value
+
+ Name: Loops / Iteration
+
+What It Means: a programming structure that repeats a block of code automatically until a specific condition is met
+
+In My Own Words: It repeats one or multiple sets of code.
+
+Example: A robot that pours ink drives in a swirl until an area is filled with ink
+
+ Name: Sensors
+
+What It Means: virtual tools built into the simulated robot that collect data from the virtual playground environment 
+
+In My Own Words: equipment used to find data about a robot's surroundings to help find out what to do
+
+Example: a location sensor to sense where a robot is, to help it find out what path it needs to take to reach a goal.
+
+ Name: Booleans & Conditions
+
+What It Means:
+
+In My Own Words: A true or false statement that helps a program reach its goal by allowing it to adapt
+
+Example:
+
+ Name:
+
+What It Means:
+
+In My Own Words:
+
+Example:
+
+ Name:
+
+What It Means:
+
+In My Own Words:
+
+Example:
+
+ Name:
+
+What It Means:
+
+In My Own Words:
+
+Example:
+
+ Name:
+
+What It Means:
+
+In My Own Words:
+
+Example:
+
+ Name:
+
+What It Means:
+
+In My Own Words:
+
+Example:
+ 
 ## Vocabulary
 
 ## Markdown Style Guide for Coding Notebooks
