@@ -3,7 +3,7 @@
   
  - [Concepts](#concepts)
    
- - [Vocabulary](#vocabulary)
+ - [Vocabulary For Robotics](#vocabulary)
    
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
@@ -11,7 +11,7 @@
 
   - [Text Formatting](#text-formatting).
 
-- [Vocab](#vocab)
+- [Vocab For Advanced Computer Science](#vocab)
   
 - [Code Examples](#code-examples)
   
