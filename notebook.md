@@ -97,6 +97,16 @@
     information kept out the source files to help others understand your code.
 </details>
 
+<details>
+  <summary>varuables</summary>
+    A variable is something that holds a value
+</details>
+
+ <details>
+  <summary>strings</summary>
+    Characters enveloped in quotation marks
+</details>
+
 ## Code Examples
  
   ### Print Statements
