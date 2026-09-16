@@ -24,6 +24,8 @@
  
 
 ## Vocab
+
+
 <details>
   <summary>algorithm</summary>
     Step-by-step instructions. 
@@ -124,6 +126,8 @@
   **println** is short for "print line".
 
 ### Commenting
+
+
 ```java
 public class Example {
   public static void main(String[] args) {
@@ -134,6 +138,7 @@ public class Example {
 // // or /* */ on either end to start and end comments
 
 ## Blocks
+
 
 Name: Hat Block
 
@@ -227,6 +232,7 @@ Example: an if then block inside a forever block, will forever check the conditi
 
 ## Concepts
 
+
 Name: Sequence
 
 What It Means: the step-by-step order in which instructions run
@@ -309,19 +315,33 @@ Example: Seeing the same code being used over and over again to solve the proble
  
 ## Vocabulary
 
-VR Robot + Playground	VR Robot -
-Programming Language + Project -
-Behavior + Command -
-Drivetrain -
-Loop + Iteration -
-Sensor + Bumper Sensor -
-Boolean + Condition + TRUE/FALSE -
-Distance Sensor + Threshold	Distance Sensor -
-Coordinate Plane + X/Y Coordinates -
-Location Sensor -
-Comment	-
-Eye Sensor -
-Conditional Statement	-
+
+VR Robot + Playground	VR Robot - The Robot used on the website VR Vex dot com. 
+
+Programming Language + Project - The language used to program a set of code.
+
+Behavior + Command - A sequence of code that you give to a robot to perform that sequence.
+
+Drivetrain - components that transfer power from the brain and battery to wheels and other functions.
+
+Loop + Iteration - Repetition of a sequence of code.
+
+Sensor + Bumper Sensor - A sensor used to gather data on the environment around the robot by detecting what bumps into it.
+
+Boolean + Condition + TRUE/FALSE - A Boolean is a statement that holds either a true or false value.
+
+Distance Sensor + Threshold	Distance Sensor - A sensor that gathers data about its environment by calculating the distance between itself and something in front of it.
+
+Coordinate Plane + X/Y Coordinates - A plane with specific values that help determine a location on the plane.
+
+Location Sensor - A sensor that gathers data about its environment by checking its location.
+
+Comment	- A piece of text that is only visible to a coder to provide information on a piece of code like why or how it works
+
+Eye Sensor - a sensor that gathers data about its environment by recognizing the color of whatever it is pointed at.
+
+Conditional Statement	- a statement that runs if and only if a certain value fuffils the conditional.
+
 
 ## Markdown Style Guide for Coding Notebooks
 
