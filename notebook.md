@@ -109,6 +109,32 @@
     Characters enveloped in quotation marks
 </details>
 
+ <details>
+  <summary>integers</summary>
+    data type holding a number value
+</details>
+
+ <details>
+  <summary>double</summary>
+    data type h0olding a decimal
+</details>
+
+ <details>
+  <summary>character</summary>
+    a data type holding a single character
+</details>
+
+ <details>
+  <summary>boolean</summary>
+    a data type that holds either a true or false.                                                                                  
+</details>
+
+
+ <details>
+  <summary>cameCase</summary>
+    a way of writing lonn
+</details>
+
 ## Code Examples
  
   ### Print Statements
