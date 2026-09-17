@@ -132,7 +132,7 @@
 
  <details>
   <summary>cameCase</summary>
-    a way of writing lonn
+    a way of writing without spaces, starting with a non-capitalized word, and capitalizing every word after it with no spaces
 </details>
 
 ## Code Examples
