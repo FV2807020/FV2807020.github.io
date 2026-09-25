@@ -143,6 +143,7 @@ We were supposed to get one of each color disk in each of the goals
 ### What I Learned
 
 I had to learn how to use the magnetize function and I had to copy and paste the 2 other sections and only had to alter it slightly.
+
 ----------------------------------------------------------------------
 
 
