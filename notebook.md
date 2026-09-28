@@ -129,10 +129,14 @@
     a data type that holds either a true or false.                                                                                  
 </details>
 
+ <details>
+  <summary>camelCase</summary>
+    a way of writing without spaces, starting with a non-capitalized word, and capitalizing every word after it with no spaces
+</details>
 
  <details>
-  <summary>cameCase</summary>
-    a way of writing without spaces, starting with a non-capitalized word, and capitalizing every word after it with no spaces
+  <summary>concatenation</summary>
+    adding strings together to make longer strings.
 </details>
 
 ## Code Examples
