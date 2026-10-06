@@ -139,6 +139,32 @@
     adding strings together to make longer strings.
 </details>
 
+ <details>
+  <summary>type-conversion</summary>
+Changing a data type to another data type
+</details>
+
+ <details>
+  <summary>syntax-errors</summary>
+occurs when a program is written incorrectly
+</details>
+
+ <details>
+  <summary>runtime-errors</summary>
+occurs when something goes wrong during runtime
+</details>
+
+ <details>
+  <summary>logic-errors</summary>
+occurs when logic is flawed
+</details>
+
+ <details>
+  <summary>rubber-duck-method</summary>
+talking to yourself to solve a problem
+</details>
+
+
 ## Code Examples
  
   ### Print Statements
