@@ -3,7 +3,7 @@
 
 - Project 1: [VEX VR](vex-vr.md)
 
-- Project 2: [Flight Booker Project](FlightBookerProject.md)
+- Project 2: [Java Prokect](JavaProject.md)
 
 ## About Me
 
