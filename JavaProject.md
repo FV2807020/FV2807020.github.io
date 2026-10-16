@@ -16,7 +16,7 @@ FIIRST IDEAS:
 
 **Resturant Reservation**
 Task: Reserve Seats in a Restaurant for certain dates, up to months ahead.
-User: Restaurant Goers
+User: Restaurant goers will use it
 Information Entered: Dates, Times, Number of People Eg. Date: 4/4/26 Time: 4:30 - 5:00, Occupants: 5
 Decisions made: decide wether to place in little tables (1-2), medium tables(3-5), or large tables (5+)
 Variables and Data Types Needed: Strings to tell time and Booleans to confirm seats, tables, dates, times, etc.
@@ -24,13 +24,13 @@ Variables and Data Types Needed: Strings to tell time and Booleans to confirm se
 **Parking Garage Spot Reserver System**
 Task: Reserve Parking Spots for a busy convention center on certain dates for certain times
 User: Everyday people
-Information Entered: 
-Decisions made: 
-Variables and Data Types Needed: 
+Information Entered: dates and times
+Decisions made: is there parking? where should the person park
+Variables and Data Types Needed: booleans
 
 **Flight Booker System**
-Task:
-User: 
-Information Entered: 
-Decisions made: 
-Variables and Data Types Needed: 
+Task: Reserve seats on a flight
+User: people who want to take flights
+Information Entered: dates and times
+Decisions made: is a seat taken? if not, reserve person to seat there
+Variables and Data Types Needed: booleans
