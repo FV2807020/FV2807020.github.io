@@ -41,7 +41,7 @@ MY INTERPRETATION
 Beginning: Welcome user: print "Welcome to *INSERT RESTURANT NAME*! Here, you will be able to reserve your seat"
 1. Please Enter Your Name
  Please Enter your Group Size
-. Please Enter the Date you want to Come
+ Please Enter the Date you want to Come
  Main program:
  (import time package)
  (import scanner package)
