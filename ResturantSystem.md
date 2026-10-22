@@ -78,6 +78,7 @@ building the project
 **Step 3** 
 debugging
 issue: people around me had a hard time entering a specific date and time, so i made an example in the code to help.
+<img width="1529" height="827" alt="image" src="https://github.com/user-attachments/assets/bd46930d-6328-4718-ad9c-fbee6180b168" />
 
 
 
