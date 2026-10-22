@@ -1,8 +1,10 @@
 **Java Project** 
+**Resturant Reservation System**
 
 This is a coding project using Java to test my understanding of the Fundementals of Java.
 
-Step 1 — Brainstorm and plan Write at least three different program ideas. 
+**Step 1**
+— Brainstorm and plan Write at least three different program ideas. 
 
 Choose one and explain: What will your program do? Who might use it or enjoy it? What information will the user enter? What decisions will your program make? Which variables and data types will you need? 
 
@@ -69,8 +71,13 @@ Beginning: Welcome user: print "Welcome to *INSERT RESTURANT NAME*! Here, you wi
    if n is pressed, delete all info Output/end: Thank You!
 
 
+**Step 2**
+building the project
 
 
+**Step 3** 
+debugging
+issue: people around me had a hard time entering a specific date and time, so i made an example in the code to help.
 
 
 
