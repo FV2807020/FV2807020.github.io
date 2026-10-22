@@ -3,7 +3,7 @@
 
 - Project 1: [VEX VR](vex-vr.md)
 
-- Project 2: [Java Prokect](JavaProject.md)
+- Project 2: [My Java Project](ResturantSystem.md)
 
 ## About Me
 
