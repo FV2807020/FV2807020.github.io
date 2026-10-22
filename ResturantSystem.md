@@ -73,7 +73,128 @@ Beginning: Welcome user: print "Welcome to *INSERT RESTURANT NAME*! Here, you wi
 
 **Step 2**
 building the project
+```java
+import java.util.Scanner;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+import java.time.Duration;
 
+public class ReservationSystem {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+
+        System.out.println("Welcome to INSERT RESTAURANT NAME! Here, you will be able to reserve your seat");
+
+        while (true) {
+            // 1. Name Input
+            System.out.print("Please Enter Your First and Last Name: ");
+            String name = scanner.nextLine().trim();
+            if (name.isEmpty()) {
+                System.out.println("Name cannot be empty. Please try again.\n");
+                continue;
+            }
+
+            // 2. Group Size Input
+            int groupSize = 0;
+            String tableType = "";
+            boolean validGroup = false;
+
+            while (!validGroup) {
+                System.out.print("Please Enter your Group Size In a Single Integer: ");
+                try {
+                    groupSize = Integer.parseInt(scanner.nextLine().trim());
+                    
+                    if (groupSize == 0) {
+                        System.out.println("Group Size can not be 0!");
+                    } else if (groupSize > 10) {
+                        System.out.println("You must reserve multiple tables for group sizes >10");
+                    } else {
+                        // Determine table type based on criteria
+                        if (groupSize < 3) {
+                            tableType = "small couples tables";
+                        } else if (groupSize < 6) {
+                            tableType = "small family tables";
+                        } else {
+                            tableType = "big family / meeting tables";
+                        }
+                        validGroup = true;
+                    }
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid input. Please enter a valid integer.");
+                }
+            }
+
+            // 3. date time setup and scan
+            LocalDateTime startDateTime = null;
+            LocalDateTime endDateTime = null;
+            boolean validDate = false;
+
+            while (!validDate) {
+                System.out.println("Please Enter the Date you want to Come (up to a month in advance).");
+                System.out.print("Format Example 2026-11-15 18:30 to 2026-11-15 20:30.");
+                String dateInput = scanner.nextLine().trim();
+
+                String[] parts = dateInput.split(" to ");
+                if (parts.length != 2) {
+                    System.out.println("Invalid format. Make sure to use ' to ' between the start and end times.");
+                    continue;
+                }
+
+                try {
+                    startDateTime = LocalDateTime.parse(parts[0].trim(), formatter);
+                    endDateTime = LocalDateTime.parse(parts[1].trim(), formatter);
+                    LocalDateTime now = LocalDateTime.now();
+
+                    // pretense protection
+                    if (startDateTime.isBefore(now)) {
+                        System.out.println("Date can not be in the past!\n");
+                    } else if (startDateTime.isAfter(now.plusMonths(1))) {
+                        System.out.println("Date can not be more than one month in adavance!\n");
+                    } else if (Duration.between(startDateTime, endDateTime).toMinutes() > 180) {
+                        System.out.println("You can not spend more than 3 hours for one reservation.");
+                    } else if (endDateTime.isBefore(startDateTime)) {
+                        System.out.println("End time cannot be before start time.\n");
+                    } else {
+                        validDate = true;
+                    }
+                } catch (DateTimeParseException e) {
+                    System.out.println("Could not parse dates. Ensure you match the pattern exactly (e.g., 2026-11-15 18:30 to 2026-11-15 20:30).\n");
+                }
+            }
+
+            // 4. confirm
+            System.out.println("\n-------------------------------------------");
+            System.out.println("Name: " + name);
+            System.out.println("Group Size: " + groupSize + " (" + tableType + ")");
+            System.out.println("Date of Reservation: " + startDateTime.format(formatter) + " to " + endDateTime.format(formatter));
+            System.out.println("-------------------------------------------");
+            System.out.print("Thank You! Press Y if all of the following information is correct and to book your reservation, N if not: ");
+            
+            String confirmation = scanner.nextLine().trim().toUpperCase();
+
+            if (confirmation.equals("Y")) {
+                // end / output
+                boolean tableBooked = true; 
+                System.out.println("\nThank You! Your reservation is confirmed.");
+                break; 
+            } else {
+                // Delete and restart loop
+                name = "";
+                groupSize = 0;
+                startDateTime = null;
+                endDateTime = null;
+                System.out.println("\nReservation canceled. Restarting form...\n");
+            }
+        }
+        
+        scanner.close();
+    }
+}
+
+
+```
 
 **Step 3** 
 debugging
