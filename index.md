@@ -5,6 +5,8 @@
 
 - Project 2: [My Java Project](ResturantSystem.md)
 
+- Project 2: [My Engineering Notebook](Engineering-Notebook.md)
+  
 ## About Me
 
 Click here to learn more → [About Me](about.md)
