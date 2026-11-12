@@ -58,3 +58,5 @@ Size of the race track:
 For the width of the track, i’ll make it .7 inches on the scaled paper, which would be about 33.6 inches in real life, this is to comfortably fit 2 robots without it’s sides grinding on the edges. 
 <img width="339" height="233" alt="image" src="https://github.com/user-attachments/assets/d0ffad56-7c63-4a3d-8ef5-50a973372fc1" />
 
+<img width="2460" height="3280" alt="unnamed (2)" src="https://github.com/user-attachments/assets/510a22a1-a28e-4b0a-b5d0-0ea1ce04dc25" />
+this was a worksheet we did that i didnt exactly understand.
