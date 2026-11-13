@@ -89,3 +89,6 @@ For the width of the track, i’ll make it .7 inches on the scaled paper, which 
 
 <img width="2460" height="3280" alt="unnamed (2)" src="https://github.com/user-attachments/assets/510a22a1-a28e-4b0a-b5d0-0ea1ce04dc25" />
 this was a worksheet we did that i didnt exactly understand.
+
+what I learned:
+I learned how to convert inches to cm better, how to envision scale and scaled images, how to scale things down and back up, etc.
